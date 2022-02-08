@@ -1,9 +1,9 @@
 node{
-stage('clone myjava project') {
+stage('clone myjenkinsjava project') {
     git 'https://github.com/Sri4devops/mahalogin.git'
 }    
     
-stage('execute maven target') {
+stage('execute mvn command') {
     sh 'mvn install'
 }    
     
